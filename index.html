@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Surv</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+</head>
+
+<body id="main">
+<div id="header-wrapper">
+	<div id="header" class="container">
+			<h1 id="title">Simple Survey</h1>
+		</div>
+		<div id="triangle-up"></div>
+	</div>
+</div>
+<div id="small-wrapper"><p id="description">Lorem ipsum dolor sit amet</p>
+</div>
+<div id="wrapper">
+	<div id="featured-wrapper">
+		<div class="extra2 container byline">
+      <form id="survey-form" >
+        <div class="group">
+          <label id="name-label" for="name">Name: 
+            <input
+        type="text"
+        name="name"
+        id="name"
+        class="form"
+        placeholder="Enter your name"
+        required
+                   />
+            </div>
+          <div class="group">
+            <label id="email-label" for="email">Email: 
+              <input
+        class="form"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email"
+        required
+                     />
+              </div>
+                <div class="group">
+                  <label id="phone-label" for="phone">Phone Number:
+                    <input
+        class="form"
+        type="tel"
+        name="phone"
+        id="phone"
+        pattern="[(][0-9]{1,2,3}[)] [0-9]{3}-[0-9]{3,4}-[0-9]{4}"
+        placeholder="Example: (555) 324-5643"
+        required
+                           />
+                    </div>
+                  <div class="group">
+                    <label id="number-label" for="number">Age:
+                      <input
+        class="form"
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="150"
+        placeholder="Age"
+                             />
+                      </div>
+                      <div class="group">
+                        <label id="dropdown-label" for="dropdown">How did you hear about this site?</label>
+  <select name="options" id="dropdown" required class="form">
+    <option disabled selected value>Please select</option>
+  <option value="engine">Search Engine</option>
+  <option value="paid">Paid Advertising Source</option>
+  <option value="platform">Social Media Platform</option>
+  <option value="other">Word of mouth</option>
+</select>
+                       
+                        </div>
+                       <div class="group">
+                         <label id="radio-buttons" for="button">How often do you visit this site?</label>
+                         <div class="form" required>
+                    <input type="radio" id="option-one" name="button" value="once" checked>
+  <label for="once">Once</label>
+                         <input type="radio" id="option-two" name="button" value="twice">
+  <label for="twice">Twice</label>
+                         <input type="radio" id="option-three" name="button" value="thrice">
+  <label for="thrice">Thrice</label><br>
+                         </div></div>
+                      <div class="group">
+                        </p>Something with checkboxes</p>
+                         <div class="form" required>
+                      <div>
+  <input type="checkbox" id="check1" name="options" value="1"
+         checked>
+  <label for="check1">One</label>
+</div>
+<div>
+  <input type="checkbox" id="check2" name="options" value="2">
+  <label for="checkt2">Two</label>
+</div>
+<div>
+  <input type="checkbox" id="check3" name="options" value="3">
+  <label for="check3">Three</label>
+</div>
+                           <div>
+  <input type="checkbox" id="check4" name="options" value="4">
+  <label for="check4">Four</label>
+</div>
+                           <div>
+  <input type="checkbox" id="check5" name="options" value="5">
+  <label for="check5">Five</label>
+                           </div></div>
+                  <label for="textarea">Please leave additional comment</label><div class="form">
+<textarea id="textarea" name="comment" rows=7 required>
+In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus. 
+                  </textarea></div>
+                  <input type="submit" id="submit" value="Submit" class="submit"></input>
+                    </form>
+                      </div>
+		</div>	
+	</div>
+</div>
+<div id="stamp" class="container">
+  <div class="hexagon"></div>
+</div>
+</body>
+<!-- partial -->
+  
+</body>
+</html>

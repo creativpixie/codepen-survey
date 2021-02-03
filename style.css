@@ -1,0 +1,190 @@
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #3D3D3D;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+	color: #6c6c6c;
+}
+div {
+    display: block;
+}
+.container {
+    margin: 0px auto;
+    width: 1200px;
+}
+#header-wrapper h1 {
+    text-decoration: none;
+    color: #FFFF;
+    text-size: 50px;
+}
+
+/* Header*/
+
+h1, h2, h3
+{
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	color: #454445;
+  text-align: center;
+}
+	.title
+{
+	margin-bottom: 3em;
+}
+
+.title h2, #title
+{
+	font-weight: 400;
+	font-size: 2.8em;
+	color: #323232;
+}
+
+.byline #survey-form
+{
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.5em;
+	color: #6F6F6F;
+}
+
+#header-wrapper
+{
+		overflow: hidden;
+		padding: 1em 0em 0em 0em;
+		background: #FFC000 repeat;
+	}
+
+#triangle-up {
+	margin: 0 auto;
+	width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 30px solid #3D3D3D;
+}
+
+/* Under header*/
+#small-wrapper
+	{
+		background: #3D3D3D;
+    padding: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+	  font-size: 1.1em;
+	  color: #FFF;
+	}
+
+#description
+	{
+		margin: 0px auto;
+	}
+
+/* Page*/
+#page
+{
+	overflow: hidden;
+	padding: 6em 0em;
+	border-bottom: 2px solid #E3E3E3;
+	text-align: center;
+}
+
+.extra2 #survey-form,
+.extra2 .ebox2
+{
+	padding: 0em 10em;
+}
+
+.extra2  #survey-form
+{
+}
+
+.extra2 .ebox2
+{
+	margin-top: 5em;
+}
+.extra2 .title h2
+{
+	font-size: 2em;
+}
+
+.extra2 .byline
+{
+	font-size: 0.80em;
+}
+#featured-wrapper
+{
+    overflow: hidden;
+    padding: 5em 0em;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.form {display: block;
+    font-size:20px;
+    padding: 4px 2px;
+    border:solid 1px #FFC000;
+    width: 700px;
+    margin: 15px 20px 20px 10px;
+ }
+.submit
+{display: block;
+    font-size:30px;
+    padding: 4px 2px;
+    border:solid 1px #454445;;
+    background: #FFC000;
+    width: 50%;
+    margin: 0 auto;
+ }
+#textarea{
+  width: 100%;
+}
+
+.hexagon {
+	margin: 0 auto 2em auto;
+	width: 120px;
+	height: 80px;
+	line-height: 80px;
+	background: #FFC000;
+	position: relative;
+	text-align: center;
+	color: #FFF;
+	font-size: 2em;
+}
+
+.hexagon:before {
+	content: "";
+	position: absolute;
+	top: -30px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 30px solid #FFC000;
+}
+
+#stamp .hexagon
+{
+	background: #3D3D3D;
+  height: 10px;
+}
+
+#stamp .hexagon:before {
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 30px solid #3D3D3D;
+}
+#stamp .hexagon:after {
+	border-color: #3D3D3D;
+}
